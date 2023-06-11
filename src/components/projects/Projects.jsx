@@ -2,24 +2,15 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
-import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import Collapse from '@mui/material/Collapse';
-import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 import "./projects.css";
 import SimpleSlider from './SimpleSlider'
 import SimpleSlider2 from './SimpleSlider2'
 import SimpleSlider3 from './SimpleSlider3'
 import SimpleSlider4 from './SimpleSlider4'
-import Button from '@mui/material/Button';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import LaunchIcon from '@mui/icons-material/Launch';
 import onemapapi from './onemapAPIlogo.png'
@@ -29,18 +20,7 @@ import { Icon } from '@iconify/react';
 import {Link} from "react-router-dom";
 
 
-const ExpandMore = styled((props) => {
-    const { expand, ...other } = props;
-    return <IconButton {...other} />;
-  })(({ theme, expand }) => ({
-    transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
-    marginLeft: 'auto',
-    transition: theme.transitions.create('transform', {
-      duration: theme.transitions.duration.shortest,
-    }),
-  }));
-
-  const BootstrapTooltip = styled(({ className, ...props }: TooltipProps) => (
+const BootstrapTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} arrow classes={{ popper: className }} />
   ))(({ theme }) => ({
     [`& .${tooltipClasses.arrow}`]: {
@@ -53,13 +33,7 @@ const ExpandMore = styled((props) => {
 
 
 const Projects = () => {
-
-    const [expanded, setExpanded] = React.useState(false);
-
-    const handleExpandClick = () => {
-      setExpanded(!expanded);
-    };
-
+ 
   return (
     <div className="card-container">
 
@@ -67,7 +41,7 @@ const Projects = () => {
         <CardHeader
             title="Train Station Speedrunner"
             titleTypographyProps={{
-                fontFamily: 'var(--body-font)'
+                fontFamily: '"Poppins", sans-serif'
             }}
         />
         <SimpleSlider/>
@@ -91,14 +65,14 @@ const Projects = () => {
         <CardActions disableSpacing>
             <a target="_blank" href="https://youtu.be/MCP6h9s601k">
             <IconButton disableRipple="true">
-            <Typography className="demolink" color="black" fontFamily= 'var(--body-font)'>Demo</Typography>
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
             <LaunchIcon />
             </IconButton>
             </a>
 
             <a href="https://github.com/sindhurajain/train-station-speedrunner" target="_blank">
             <IconButton disableRipple="true">
-            <Typography className="demolink" color="black" fontFamily= 'var(--body-font)'>GitHub</Typography>
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
             <LaunchIcon />
             </IconButton>
             </a>
@@ -107,10 +81,10 @@ const Projects = () => {
         </CardActions>
 
             <CardContent>
-            <Typography paragraph fontFamily= 'var(--body-font)'>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
             ● Developed React web app to find shortest route between 2 train stations using OneMap API
             </Typography>
-            <Typography fontFamily= 'var(--body-font)'>
+            <Typography fontFamily= '"Poppins", sans-serif'>
             ● Developed feature of telling a user which train door is nearest to the escalator at the destination
 station using GraphQL            </Typography>
             </CardContent>
@@ -121,7 +95,7 @@ station using GraphQL            </Typography>
         <CardHeader
             title="Personal Website"
             titleTypographyProps={{
-                fontFamily: 'var(--body-font)'
+                fontFamily: '"Poppins", sans-serif'
             }}
         />
         <SimpleSlider2/>
@@ -142,13 +116,13 @@ station using GraphQL            </Typography>
         <CardActions disableSpacing>
             <Link to="/">
             <IconButton disableRipple="true">
-            <Typography className="demolink" color="black" fontFamily= 'var(--body-font)'>Demo</Typography>
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
             <LaunchIcon />
             </IconButton>
             </Link>
             <a href="https://github.com/sindhurajain/my-app" target="_blank">
-            <IconButton disableRipple="true">
-            <Typography className="demolink" color="black" fontFamily= 'var(--body-font)'>GitHub</Typography>
+            <IconButton  disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
             <LaunchIcon />
             </IconButton>
             </a>
@@ -156,7 +130,7 @@ station using GraphQL            </Typography>
         </CardActions>
         
             <CardContent>
-            <Typography paragraph fontFamily= 'var(--body-font)'>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
             ● Developed personal website to showcase skills and projects
             </Typography>
             </CardContent>
@@ -167,7 +141,7 @@ station using GraphQL            </Typography>
         <CardHeader
             title="Task-Management iOS App"
             titleTypographyProps={{
-                fontFamily: 'var(--body-font)'
+                fontFamily: '"Poppins", sans-serif'
             }}
         />
         <SimpleSlider3/>
@@ -182,16 +156,16 @@ station using GraphQL            </Typography>
         <CardActions disableSpacing>
             
             <a href="https://youtu.be/gj9h6YfRJHw" target="_blank">
-            <IconButton disableRipple="true">
-            <Typography className="demolink" color="black" fontFamily= 'var(--body-font)'>Demo</Typography>
+            <IconButton  disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
             <LaunchIcon />
             </IconButton>
             </a>
 
 
             <a href="https://github.com/sindhurajain/ProductivityiOSApp" target="_blank">
-            <IconButton disableRipple="true">
-            <Typography className="demolink" color="black" fontFamily= 'var(--body-font)'>GitHub</Typography>
+            <IconButton  disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
             <LaunchIcon />
             </IconButton>
             </a>
@@ -199,13 +173,13 @@ station using GraphQL            </Typography>
         </CardActions>
 
             <CardContent>
-            <Typography paragraph fontFamily= 'var(--body-font)'>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
             ● Developed iOS productivity app using Swift and SwiftUI for creating checklists, notes and event countdown clocks
             </Typography>
-            <Typography paragraph fontFamily= 'var(--body-font)'>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
             ● Built functionalities such as sending reminders and adding, editing and deleting entries
             </Typography>
-            <Typography paragraph fontFamily= 'var(--body-font)'>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
             ● Deployed app on Apple App Store
             </Typography>
             </CardContent>
@@ -216,7 +190,7 @@ station using GraphQL            </Typography>
         <CardHeader
             title="RollyAI"
             titleTypographyProps={{
-                fontFamily: 'var(--body-font)'
+                fontFamily: '"Poppins", sans-serif'
             }}
         />
         <SimpleSlider4/>
@@ -236,8 +210,8 @@ station using GraphQL            </Typography>
         </CardContent>
         <CardActions disableSpacing>
             <a href="https://www.youtube.com/watch?v=sh5IFCQ7Qi8" target="_blank">
-            <IconButton disableRipple="true">
-            <Typography className="demolink" color="black" fontFamily= 'var(--body-font)'>Demo</Typography>
+            <IconButton  disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
             <LaunchIcon />
             </IconButton>
             </a>
@@ -245,7 +219,7 @@ station using GraphQL            </Typography>
         </CardActions>
 
             <CardContent>
-            <Typography paragraph fontFamily= 'var(--body-font)'>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
             ● Used TypeScript, React, TailwindCSS and DaisyUI to build the frontend of website that
 synchronously displays Telegram messages as widgets on the website for hackathon project
             </Typography>

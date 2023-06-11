@@ -1,16 +1,11 @@
 import React from 'react'
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
 import "./home.css"
 import Social from './Social';
 import Data from './Data'
-import DividerText from './DividerText'
-import ScrollDown from './ScrollDown';
-import Header from '../header/Header'
+import DividerText from './DividerText';
 
 
-//<Social />
 const Home = () => {
     return (
         <section className="home section" id="home">    
@@ -30,6 +25,4 @@ const Home = () => {
 }
 
 export default Home;
-/*
-<ScrollDown/> above last div
-*/
+

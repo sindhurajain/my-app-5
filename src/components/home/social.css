@@ -1,0 +1,18 @@
+.home__social {
+    display: flex;
+    grid-template-rows: max-content;
+    height: 25px;
+    column-gap: 2rem;
+    order: 2;
+    justify-content: center;
+    margin-left: 0.75rem;
+}
+
+.home__social-icon {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 20%);
+}
+
+.home__social-icon {
+    color: hsl(0, 0%, 0%);
+}

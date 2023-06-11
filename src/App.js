@@ -7,23 +7,18 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import WorkExp from './components/workexp/WorkExp';
 import Projects from './components/projects/Projects';
 
-/* hi*/
-
-
 const App = () => {
   return (
     <>
-        
-        <Header/>
-        <Routes>
-        <Route path="/" element={<Home />}>  </Route>
+    <Header/>
+    <Routes>
+    <Route path="/" element={<Home />}>  </Route>
 
-          <Route path="/work-experience" element={<WorkExp />}>  </Route>
-          <Route path="/projects" element={<Projects />}>  </Route>
+      <Route path="/work-experience" element={<WorkExp />}>  </Route>
+      <Route path="/projects" element={<Projects />}>  </Route>
 
-        </Routes>
-    </>
-
+    </Routes>
+</>
   )
 }
 

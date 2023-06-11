@@ -22,7 +22,7 @@ const WorkExp = () => {
       }}>
     <TimelineItem>
       <TimelineOppositeContent color="black">
-      <Typography variant="h6" fontFamily= 'var(--body-font)' component="span">
+      <Typography variant="h6" fontFamily= '"Poppins", sans-serif' component="span">
       May 2023 - Jul 2023
         </Typography>
       </TimelineOppositeContent>
@@ -39,14 +39,14 @@ const WorkExp = () => {
                               sx={{
                                 fontSize: "large",
                                 fontWeight:"bold",
-                                fontFamily: 'var(--body-font)'
+                                fontFamily: '"Poppins", sans-serif'
                                 }}>
         Machine Learning Research Intern (Full-Time, Ongoing)
           </Typography>
           <Typography component="span"
           sx={{
             fontSize: "medium",
-            fontFamily: 'var(--body-font)'
+            fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
           Agency for Science, Technology and Research
@@ -54,7 +54,7 @@ const WorkExp = () => {
           <Typography component="span"
           sx={{
             fontSize: "small",
-            fontFamily: 'var(--body-font)'
+            fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
             ● Using Tensorflow to explore generative models such as GANs and Variational Autoencoders for
@@ -65,7 +65,7 @@ query synthesis in active learning for regression in analogue circuit design app
     <TimelineItem>
 
       <TimelineOppositeContent color="black">
-      <Typography variant="h6" component="span" fontFamily= 'var(--body-font)'>
+      <Typography variant="h6" component="span" fontFamily= '"Poppins", sans-serif'>
       Jan 2023 - Apr 2023
         </Typography>
     </TimelineOppositeContent>
@@ -83,14 +83,14 @@ query synthesis in active learning for regression in analogue circuit design app
                               sx={{
                                 fontSize: "large",
                                 fontWeight:"bold",
-                                fontFamily: 'var(--body-font)'
+                                fontFamily: '"Poppins", sans-serif'
                                 }}>
         Research Assistant (Part-Time)
           </Typography>
           <Typography component="span"
           sx={{
             fontSize: "medium",
-            fontFamily: 'var(--body-font)'
+            fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
             National University of Singapore
@@ -98,7 +98,7 @@ query synthesis in active learning for regression in analogue circuit design app
           <Typography component="span"
           sx={{
             fontSize: "small",
-            fontFamily: 'var(--body-font)'
+            fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
             ● Wrote Python scripts using Epitran library for grapheme-to-phoneme conversion of poetry written
@@ -112,7 +112,7 @@ in various languages for “Universals in Language Iconicity” linguistics rese
 
     <TimelineItem>
       <TimelineOppositeContent color="black">
-      <Typography variant="h6" component="span" fontFamily= 'var(--body-font)'>
+      <Typography variant="h6" component="span" fontFamily= '"Poppins", sans-serif'>
       Jan 2023 - Apr 2023
         </Typography>
       </TimelineOppositeContent>
@@ -129,14 +129,14 @@ in various languages for “Universals in Language Iconicity” linguistics rese
                               sx={{
                                 fontSize: "large",
                                 fontWeight:"bold",
-                                fontFamily: 'var(--body-font)'
+                                fontFamily: '"Poppins", sans-serif'
                                 }}>
         Teaching Assistant (Part-Time)
           </Typography>
           <Typography component="span"
           sx={{
             fontSize: "medium",
-            fontFamily: 'var(--body-font)'
+            fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
             School of Computing, National University of Singapore
@@ -144,7 +144,7 @@ in various languages for “Universals in Language Iconicity” linguistics rese
           <Typography component="span"
           sx={{
             fontSize: "small",
-            fontFamily: 'var(--body-font)'
+            fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
             ● Conducted 2 weekly tutorial sessions of 30 students each for Digital Ethics & Data Privacy class
@@ -155,7 +155,7 @@ in various languages for “Universals in Language Iconicity” linguistics rese
     </TimelineItem>
     <TimelineItem>
     <TimelineOppositeContent color="black">
-      <Typography variant="h6" component="span" fontFamily= 'var(--body-font)'>
+      <Typography variant="h6" component="span" fontFamily= '"Poppins", sans-serif'>
       Sept 2022 - Jan 2023
         </Typography>
     </TimelineOppositeContent>
@@ -174,14 +174,14 @@ in various languages for “Universals in Language Iconicity” linguistics rese
                               sx={{
                                 fontSize: "large",
                                 fontWeight:"bold",
-                                fontFamily: 'var(--body-font)'
+                                fontFamily: '"Poppins", sans-serif'
                                 }}>
         Software Engineering Intern (Part-Time)
           </Typography>
           <Typography component="span"
           sx={{
             fontSize: "medium",
-            fontFamily: 'var(--body-font)'
+            fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
             Centre for Quantum Technologies
@@ -189,7 +189,7 @@ in various languages for “Universals in Language Iconicity” linguistics rese
           <Typography component="span"
           sx={{
             fontSize: "small",
-            fontFamily: 'var(--body-font)'
+            fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
             ● Developed a machine learning model in Python using Keras and Numpy libraries to classify
@@ -210,11 +210,3 @@ test images as downloadable CSV file
 };
   
 export default WorkExp;
-
-/*
-      <TimelineConnector 
-                      sx={{
-                        backgroundColor: "black"
-                        }}
-                        />
-        */
