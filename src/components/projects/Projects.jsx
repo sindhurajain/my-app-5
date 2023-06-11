@@ -120,7 +120,7 @@ station using GraphQL            </Typography>
             <LaunchIcon />
             </IconButton>
             </Link>
-            <a href="https://github.com/sindhurajain/my-app" target="_blank">
+            <a href="https://github.com/sindhurajain/portfolio" target="_blank">
             <IconButton  disableRipple="true">
             <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
             <LaunchIcon />
