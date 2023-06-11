@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.05d07c1f.css",
-    "main.js": "/portfolio/static/js/main.e638790a.js",
+    "main.css": "/portfolio/static/css/main.88e0776d.css",
+    "main.js": "/portfolio/static/js/main.ecdf7fa3.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/mrt-1.png": "/portfolio/static/media/mrt-1.f75dea0181149df48ba1.png",
     "static/media/mrt-2.png": "/portfolio/static/media/mrt-2.1101fd92a9e94816106a.png",
@@ -17,18 +17,18 @@
     "static/media/onemapAPIlogo.png": "/portfolio/static/media/onemapAPIlogo.c339dac67b63bfe52e0e.png",
     "static/media/pfp-4.PNG": "/portfolio/static/media/pfp-4.6da3c8ff13a1b8874e66.PNG",
     "static/media/pfp-6.PNG": "/portfolio/static/media/pfp-6.c41bdbc1cbae15703f6e.PNG",
-    "static/media/CV_Website.pdf": "/portfolio/static/media/CV_Website.d9259e50dc945f935cbc.pdf",
+    "static/media/CV_Website.pdf": "/portfolio/static/media/CV_Website.87eb7f132bfa50e4bffe.pdf",
     "static/media/cadlogo.png": "/portfolio/static/media/cadlogo.ff7d49f84cad999d091a.png",
     "static/media/pfp-2.PNG": "/portfolio/static/media/pfp-2.0d649f3f102ebb9dfbb4.PNG",
     "static/media/pfp-5.PNG": "/portfolio/static/media/pfp-5.b5a9c89a8bf7a5cf99dd.PNG",
     "static/media/linkedin1.jpeg": "/portfolio/static/media/linkedin1.e68a2595ad81f7cfc09f.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.05d07c1f.css.map": "/portfolio/static/css/main.05d07c1f.css.map",
-    "main.e638790a.js.map": "/portfolio/static/js/main.e638790a.js.map",
+    "main.88e0776d.css.map": "/portfolio/static/css/main.88e0776d.css.map",
+    "main.ecdf7fa3.js.map": "/portfolio/static/js/main.ecdf7fa3.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05d07c1f.css",
-    "static/js/main.e638790a.js"
+    "static/css/main.88e0776d.css",
+    "static/js/main.ecdf7fa3.js"
   ]
 }
