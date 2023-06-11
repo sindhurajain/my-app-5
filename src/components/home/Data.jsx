@@ -39,11 +39,13 @@ const Data = () => {
                 </p>
                 <br></br>
                 <p>
-                I'm currently enrolled in the Bachelor of Computing in Computer Science program. I also doing a double major in Mathematics and am
-                part of NUS's honours college.
+                I'm currently enrolled in the Bachelor of Computing in Computer Science program. I'm also doing a double major in Mathematics and am
+                part of NUS's honours college. I am a recipient of the NUS Merit Scholarship.
+                
                 </p>
                 <br></br>
-                <p>I'm passionate about software engineering and making ideas come to life.</p>
+                <p>I'm passionate about artificial intelligence & machine learning, algorithms & theory and software engineering. I love making ideas come to life. 
+                </p>
                 <br></br>
                 <p>Feel free to reach out to me!</p>
                 <br></br>
