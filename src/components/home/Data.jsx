@@ -35,13 +35,9 @@ const Data = () => {
                 </p>
                 <p style={{fontSize: 23, fontWeight:"400"}} className="home__description">Computer Science Student</p>
                 <br></br>
-                <p className="home__description">I'm a 2nd Year undergraduate student at the National University of Singapore (NUS).
-                </p>
-                <br></br>
-                <p>
+                <p>I'm a 2nd Year undergraduate student at the National University of Singapore (NUS).
                 I'm currently enrolled in the Bachelor of Computing in Computer Science program. I'm also doing a double major in Mathematics and am
-                part of NUS's honours college. I am a recipient of the NUS Merit Scholarship.
-                
+                part of NUS's honours college. I am a recipient of the NUS Merit Scholarship.     
                 </p>
                 <br></br>
                 <p>I'm passionate about artificial intelligence & machine learning, algorithms & theory and software engineering. I love making ideas come to life. 
