@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.88e0776d.css",
-    "main.js": "/portfolio/static/js/main.8fd7fa32.js",
+    "main.js": "/portfolio/static/js/main.a85e7698.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/mrt-1.png": "/portfolio/static/media/mrt-1.f75dea0181149df48ba1.png",
-    "static/media/mrt-2.png": "/portfolio/static/media/mrt-2.1101fd92a9e94816106a.png",
+    "static/media/mrt-1.png": "/portfolio/static/media/mrt-1.5e88ce9e386db2de1f01.png",
+    "static/media/mrt-2.png": "/portfolio/static/media/mrt-2.a53d67bff7eab78d5c37.png",
     "static/media/website-1.png": "/portfolio/static/media/website-1.109f2e3795d1e72e21f8.png",
     "static/media/hackathon-1.png": "/portfolio/static/media/hackathon-1.9e58c3ced216d25f8f92.png",
     "static/media/website-3.png": "/portfolio/static/media/website-3.ce6e92fb771300a1d376.png",
@@ -24,11 +24,11 @@
     "static/media/linkedin1.jpeg": "/portfolio/static/media/linkedin1.e68a2595ad81f7cfc09f.jpeg",
     "index.html": "/portfolio/index.html",
     "main.88e0776d.css.map": "/portfolio/static/css/main.88e0776d.css.map",
-    "main.8fd7fa32.js.map": "/portfolio/static/js/main.8fd7fa32.js.map",
+    "main.a85e7698.js.map": "/portfolio/static/js/main.a85e7698.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88e0776d.css",
-    "static/js/main.8fd7fa32.js"
+    "static/js/main.a85e7698.js"
   ]
 }
