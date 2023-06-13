@@ -63,7 +63,7 @@ const Projects = () => {
             </BootstrapTooltip>
         </CardContent>
         <CardActions disableSpacing>
-            <a target="_blank" href="https://youtu.be/MCP6h9s601k">
+            <a target="_blank" href=https://youtu.be/igApp_N-zOk">
             <IconButton disableRipple="true">
             <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
             <LaunchIcon />
