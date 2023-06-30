@@ -11,6 +11,8 @@ import SimpleSlider from './SimpleSlider'
 import SimpleSlider2 from './SimpleSlider2'
 import SimpleSlider3 from './SimpleSlider3'
 import SimpleSlider4 from './SimpleSlider4'
+import SimpleSlider5 from './SimpleSlider5'
+import SimpleSlider6 from './SimpleSlider6'
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import LaunchIcon from '@mui/icons-material/Launch';
 import onemapapi from './onemapAPIlogo.png'
@@ -36,6 +38,124 @@ const Projects = () => {
  
   return (
     <div className="card-container">
+
+            <Card className="element" id="card1" sx={{}}>
+        <CardHeader
+            title="Full-Stack Blog Website"
+            titleTypographyProps={{
+                fontFamily: '"Poppins", sans-serif'
+            }}
+        />
+        <SimpleSlider5/> 
+        <CardContent>
+            <BootstrapTooltip title="MongoDB" placement="top">          
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="ExpressJS" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="ReactJS" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="NodeJS" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+            </BootstrapTooltip>
+
+        </CardContent>
+        <CardActions disableSpacing>
+            <a target="_blank" href="https://youtu.be/Q3dXykGbBGk">
+            <IconButton disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
+            <LaunchIcon />
+            </IconButton>
+            </a>
+
+            <a href="https://github.com/sindhurajain/MERN-stack-blog" target="_blank">
+            <IconButton disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
+            <LaunchIcon />
+            </IconButton>
+            </a>
+
+
+        </CardActions>
+
+            <CardContent>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
+            ● Developed full-stack blog website using MongoDB, ExpressJS, ReactJS, and NodeJS (MERN stack)
+            </Typography>
+            <Typography fontFamily= '"Poppins", sans-serif'>
+            ● Developed features of registering, logging in, logging out, creating a post, displaying posts from all users, automatically seeing the data & time the blog was posted and last updated and editing posts made by only your account    
+</Typography>
+           
+    </CardContent>
+
+        </Card>
+
+
+
+
+
+
+
+
+
+<Card className="element" id="card1" sx={{}}>
+        <CardHeader
+            title="Password Generator Chrome Extension (With Authentication)"
+            titleTypographyProps={{
+                fontFamily: '"Poppins", sans-serif'
+            }}
+        />
+        <SimpleSlider6/>
+        <CardContent>
+            <BootstrapTooltip title="Firebase" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="JavaScript" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="HTML5" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="CSS3" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+            </BootstrapTooltip>
+
+        </CardContent>
+        <CardActions disableSpacing>
+            <a target="_blank" href="https://youtu.be/W2IMV4X0dMc">
+            <IconButton disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
+            <LaunchIcon />
+            </IconButton>
+            </a>
+
+            <a href="https://github.com/sindhurajain/password-generator-chrome-extension" target="_blank">
+            <IconButton disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
+            <LaunchIcon />
+            </IconButton>
+            </a>
+
+
+        </CardActions>
+
+            <CardContent>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
+            ● Developed random password generator using Firebase, JavaScript, HTML and CSS
+            </Typography>
+            <Typography fontFamily= '"Poppins", sans-serif'>
+            ● Features include gmail account authentication for security & logging in and out,  automatically generating random passwords, 
+            using a slider to adjust the length of the generated password and displaying the length, 
+            using buttons to chose whether or not to include digits, special characters or uppercase letters 
+            and copying the generated password to the clipboard           
+</Typography>
+           
+    </CardContent>
+
+        </Card>
+
 
         <Card className="element" id="card1" sx={{}}>
         <CardHeader
