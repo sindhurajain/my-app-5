@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.88e0776d.css",
-    "main.js": "/portfolio/static/js/main.56a4bcc1.js",
+    "main.js": "/portfolio/static/js/main.12583d30.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/mrt-1.png": "/portfolio/static/media/mrt-1.5e88ce9e386db2de1f01.png",
     "static/media/mrt-2.png": "/portfolio/static/media/mrt-2.a53d67bff7eab78d5c37.png",
@@ -21,10 +21,10 @@
     "static/media/java-3.png": "/portfolio/static/media/java-3.be4afdf72e471a2dfcc0.png",
     "static/media/java-6.png": "/portfolio/static/media/java-6.36392386495e53e2dc80.png",
     "static/media/java-1.png": "/portfolio/static/media/java-1.63523219c6ebc6a2db84.png",
+    "static/media/java-2.png": "/portfolio/static/media/java-2.84880a3dd323d073ad06.png",
     "static/media/acc-logo.png": "/portfolio/static/media/acc-logo.e5214d47ad4953282096.png",
-    "static/media/java-2.png": "/portfolio/static/media/java-2.4c7f362348d34a7b010e.png",
+    "static/media/java-5.png": "/portfolio/static/media/java-5.550e37890af849ea5b26.png",
     "static/media/SwiftUI.png": "/portfolio/static/media/SwiftUI.bc70db3af1e5bb863ea5.png",
-    "static/media/java-5.png": "/portfolio/static/media/java-5.1aef98256d8c7ee9e3ac.png",
     "static/media/java-4.png": "/portfolio/static/media/java-4.cd861e462329c08667be.png",
     "static/media/onemapAPIlogo.png": "/portfolio/static/media/onemapAPIlogo.c339dac67b63bfe52e0e.png",
     "static/media/pfp-4.PNG": "/portfolio/static/media/pfp-4.6da3c8ff13a1b8874e66.PNG",
@@ -46,11 +46,11 @@
     "static/media/chrome4.png": "/portfolio/static/media/chrome4.bfb78ef33c777c5bcfc8.png",
     "index.html": "/portfolio/index.html",
     "main.88e0776d.css.map": "/portfolio/static/css/main.88e0776d.css.map",
-    "main.56a4bcc1.js.map": "/portfolio/static/js/main.56a4bcc1.js.map",
+    "main.12583d30.js.map": "/portfolio/static/js/main.12583d30.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88e0776d.css",
-    "static/js/main.56a4bcc1.js"
+    "static/js/main.12583d30.js"
   ]
 }
