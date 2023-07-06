@@ -13,6 +13,9 @@ import SimpleSlider3 from './SimpleSlider3'
 import SimpleSlider4 from './SimpleSlider4'
 import SimpleSlider5 from './SimpleSlider5'
 import SimpleSlider6 from './SimpleSlider6'
+import SimpleSlider7 from './SimpleSlider7'
+import SimpleSlider8 from './SimpleSlider8'
+import SimpleSlider9 from './SimpleSlider9'
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import LaunchIcon from '@mui/icons-material/Launch';
 import onemapapi from './onemapAPIlogo.png'
@@ -20,6 +23,7 @@ import leafletlogo from './leafletlogo.jpeg'
 import swiftui from './SwiftUI.png'
 import { Icon } from '@iconify/react';
 import {Link} from "react-router-dom";
+import rest from './rest-api-icon.png'
 
 
 const BootstrapTooltip = styled(({ className, ...props }) => (
@@ -39,7 +43,93 @@ const Projects = () => {
   return (
     <div className="card-container">
 
-            <Card className="element" id="card1" sx={{}}>
+<Card className="element" id="trading-bot" sx={{}}>
+        <CardHeader
+            title="Algorithmic Trading Bot"
+            titleTypographyProps={{
+                fontFamily: '"Poppins", sans-serif'
+            }}
+        />
+        <SimpleSlider8/> 
+        <CardContent>
+            <BootstrapTooltip title="Python" placement="top">          
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="Numpy" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />
+            </BootstrapTooltip>
+
+
+        </CardContent>
+        <CardActions disableSpacing>
+
+            <a href="https://github.com/sindhurajain/algo-trading-bot" target="_blank">
+            <IconButton disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
+            <LaunchIcon />
+            </IconButton>
+            </a>
+
+
+        </CardActions>
+
+            <CardContent>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
+            ● Developed algorithmic trading bot in Python by implementing breakout trading strategy with dynamically changing lookback period based on volatility and trailing stop loss to cut losses and let profits run
+            </Typography>
+            <Typography fontFamily= '"Poppins", sans-serif'>
+            ● Earned simulated profit of $40,929.45 in a 3-year time frame using toy cash of $100,000
+   
+</Typography>
+           
+    </CardContent>
+
+    </Card>
+
+    
+    <Card className="element" id="stock-pred" sx={{}}>
+        <CardHeader
+            title="Stock Price Time Series Forecasting Model"
+            titleTypographyProps={{
+                fontFamily: '"Poppins", sans-serif'
+            }}
+        />
+        <SimpleSlider7/> 
+        <CardContent>
+            <BootstrapTooltip title="PyTorch" placement="top">          
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="Python" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="Pandas" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
+            </BootstrapTooltip>
+        </CardContent>
+        <CardActions disableSpacing>
+
+            <a href="https://github.com/sindhurajain/stock-price-pred-lstm" target="_blank">
+            <IconButton disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
+            <LaunchIcon />
+            </IconButton>
+            </a>
+
+
+        </CardActions>
+
+            <CardContent>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
+            ● Developed Long Short-Term Memory (LSTM) neural network in Python for time-series forecasting of stock prices with an R2 score of 0.97 (1.0 being a perfect prediction), indicating good performance
+            </Typography>
+            
+           
+        </CardContent>
+
+    </Card>
+
+
+    <Card className="element" id="mern-blog" sx={{}}>
         <CardHeader
             title="Full-Stack Blog Website"
             titleTypographyProps={{
@@ -90,13 +180,66 @@ const Projects = () => {
            
     </CardContent>
 
-        </Card>
+    </Card>
 
 
+    <Card className="element" id="java-proj" sx={{}}>
+        <CardHeader
+            title="Full-Stack Student Management System"
+            titleTypographyProps={{
+                fontFamily: '"Poppins", sans-serif'
+            }}
+        />
+        <SimpleSlider9/> 
+        <CardContent>
+            <BootstrapTooltip title="Java" placement="top">          
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="Spring Boot" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="RESTful APIs" placement="top">
+            <img width="40px" className="stackele" src={rest} />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="Angular" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+            </BootstrapTooltip>
+            <BootstrapTooltip title="MySQL" placement="top">
+            <img width="40px" className="stackele" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+            </BootstrapTooltip>
+
+        </CardContent>
+        <CardActions disableSpacing>
+            <a target="_blank" href="https://youtu.be/w-H3-RmRoMw">
+            <IconButton disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
+            <LaunchIcon />
+            </IconButton>
+            </a>
+
+            <a href="https://github.com/sindhurajain/student-system-java">
+            <IconButton disableRipple="true">
+            <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
+            <LaunchIcon />
+            </IconButton>
+            </a>
 
 
+        </CardActions>
 
+            <CardContent>
+            <Typography paragraph fontFamily= '"Poppins", sans-serif'>
+            ● Applied object-oriented programming concepts to develop full-stack student management system CRUD application in Java
 
+            </Typography>
+            <Typography fontFamily= '"Poppins", sans-serif'>
+            ● Created REST APIs using Spring Boot connected to MySQL relational database and Angular for frontend
+
+</Typography>
+           
+    </CardContent>
+
+    </Card>
 
 
 
@@ -157,7 +300,19 @@ const Projects = () => {
         </Card>
 
 
-        <Card className="element" id="card1" sx={{}}>
+
+
+
+
+
+
+
+
+
+
+
+
+    <Card className="element" id="card1" sx={{}}>
         <CardHeader
             title="Train Station Speedrunner"
             titleTypographyProps={{
@@ -183,7 +338,7 @@ const Projects = () => {
             </BootstrapTooltip>
         </CardContent>
         <CardActions disableSpacing>
-            <a target="_blank" href=https://youtu.be/igApp_N-zOk">
+            <a target="_blank" href="https://youtu.be/igApp_N-zOk">
             <IconButton disableRipple="true">
             <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
             <LaunchIcon />
@@ -206,8 +361,10 @@ const Projects = () => {
             </Typography>
             <Typography fontFamily= '"Poppins", sans-serif'>
             ● Developed feature of telling a user which train door is nearest to the escalator at the destination
-station using GraphQL            </Typography>
-            </CardContent>
+station using GraphQL            
+</Typography>
+           
+    </CardContent>
 
         </Card>
 
@@ -234,12 +391,12 @@ station using GraphQL            </Typography>
             </BootstrapTooltip>
         </CardContent>
         <CardActions disableSpacing>
-            <Link to="/">
+            <a target="_blank" href="https://sindhurajain.github.io/portfolio/">
             <IconButton disableRipple="true">
             <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>Demo</Typography>
             <LaunchIcon />
             </IconButton>
-            </Link>
+            </a>
             <a href="https://github.com/sindhurajain/portfolio" target="_blank">
             <IconButton  disableRipple="true">
             <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
@@ -306,7 +463,7 @@ station using GraphQL            </Typography>
 
         </Card>
 
-        <Card className="element" id="card3" sx={{}}>
+    <Card className="element" id="card3" sx={{}}>
         <CardHeader
             title="RollyAI"
             titleTypographyProps={{
