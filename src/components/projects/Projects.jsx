@@ -217,7 +217,7 @@ const Projects = () => {
             </IconButton>
             </a>
 
-            <a href="https://github.com/sindhurajain/student-system-java">
+            <a target="_blank" href="https://github.com/sindhurajain/student-system-java">
             <IconButton disableRipple="true">
             <Typography className="demolink" color="black" fontFamily= '"Poppins", sans-serif'>GitHub</Typography>
             <LaunchIcon />
