@@ -7,12 +7,12 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import Typography from '@mui/material/Typography';
 import "./workexp.css"
-
-
 import TimelineOppositeContent, {
     timelineOppositeContentClasses,
   } from '@mui/lab/TimelineOppositeContent';
   
+
+
 const WorkExp = () => {
   return (
     <Timeline className="tl"       sx={{
@@ -41,7 +41,7 @@ const WorkExp = () => {
                                 fontWeight:"bold",
                                 fontFamily: '"Poppins", sans-serif'
                                 }}>
-        Machine Learning Research Intern (Full-Time, Ongoing)
+        Machine Learning Research Intern (Full-Time)
           </Typography>
           <Typography component="span"
           sx={{
@@ -57,8 +57,7 @@ const WorkExp = () => {
             fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
-            ● Using Tensorflow to explore generative models such as GANs and Variational Autoencoders for
-query synthesis in active learning for regression in analogue circuit design application
+            ● Used PyTorch to explore the use of generative models such as GANs and Variational Autoencoders for query synthesis-based active learning approaches for analog circuit design regression application
           </Typography>
           </TimelineContent>
     </TimelineItem>
@@ -147,7 +146,7 @@ in various languages for “Universals in Language Iconicity” linguistics rese
             fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
-            ● Conducted 2 weekly tutorial sessions of 30 students each for Digital Ethics & Data Privacy class
+            ● Conducted 2 weekly tutorial sessions of 30 students each for Digital Ethics & Data Privacy computing class
             <br></br>
 ● Led discussions on case studies, reinforced content and graded assignments
           </Typography>
@@ -184,7 +183,8 @@ in various languages for “Universals in Language Iconicity” linguistics rese
             fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
-            Centre for Quantum Technologies
+            SpooQy Lab, Centre for Quantum Technologies
+
           </Typography>
           <Typography component="span"
           sx={{
@@ -192,15 +192,14 @@ in various languages for “Universals in Language Iconicity” linguistics rese
             fontFamily: '"Poppins", sans-serif'
             }}>
             <br></br>
-            ● Developed a machine learning model in Python using Keras and Numpy libraries to classify
-images of clouds by percentage cloud cover<br></br>
-            ● Generated image samples and plots of model accuracy and prediction accuracy using Matplotlib
-            <br></br>
+            ● Developed a machine learning model in Python using TensorFlow to classify images of clouds by cloud cover
+<br></br>
+
             ● Improved model accuracy from 40% to 90% by balancing classes and using early stopping to
 reduce overfitting
             <br></br>
-            ● Integrated it into a website using Streamlit and used Pandas dataframe to output predictions of
-test images as downloadable CSV file
+            ● Integrated it into a website using Streamlit to predict the classes of images that a user uploads
+
           </Typography>
       </TimelineContent>
     </TimelineItem>
