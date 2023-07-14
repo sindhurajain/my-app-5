@@ -198,8 +198,7 @@ in various languages for “Universals in Language Iconicity” linguistics rese
             ● Improved model accuracy from 40% to 90% by balancing classes and using early stopping to
 reduce overfitting
             <br></br>
-            ● Integrated it into a website using Streamlit to predict the classes of images that a user uploads
-
+            ● Integrated into a website with Flask backend and ReactJS frontend to predict the classes of user-uploaded images
           </Typography>
       </TimelineContent>
     </TimelineItem>
