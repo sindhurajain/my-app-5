@@ -37,7 +37,7 @@ const Data = () => {
                 <br></br>
                 <p>I'm an undergraduate student at the National University of Singapore (NUS).
                 I'm currently enrolled in the Bachelor of Computing in Computer Science program. I'm also doing a double major in Mathematics and am
-                part of NUS's honours college. I am a recipient of the NUS Merit Scholarship.     
+                part of NUS's honours college. <span id="sc">I am a recipient of the NUS Merit Scholarship.</span>
                 </p>
                 <br></br>
                 <p>I'm passionate about artificial intelligence & machine learning, algorithms & theory and software engineering. I love making ideas come to life. 
@@ -75,7 +75,7 @@ const Data = () => {
                 target="_blank"
                 rel="noreferrer">
 
-                <Button className="button1" variant="outlined" color="neutral" disableRipple="true"
+                <Button className="button1" variant="outlined" color="neutral" disableRipple="true" sx={{ display: 'none'}}
                 >
                   Download CV                
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="button__icon"><path fill="currentColor" d="M8.29 13.29a1 1 0 0 0 0 1.42l3 3a1 1 0 0 0 1.42 0l3-3a1 1 0 0 0-1.42-1.42L13 14.59V3a1 1 0 0 0-2 0v11.59l-1.29-1.3a1 1 0 0 0-1.42 0ZM18 9h-2a1 1 0 0 0 0 2h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1h2a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v7a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-7a3 3 0 0 0-3-3Z"/></svg>
