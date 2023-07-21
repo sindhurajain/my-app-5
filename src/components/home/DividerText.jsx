@@ -9,6 +9,8 @@ import { Icon } from '@iconify/react';
 import fclogo from './cadlogo.png';
 import acclogo from './acc-logo.png';
 import swiftui from './SwiftUI.png';
+import rest from '../projects/rest-api-icon.png'
+
 
 
 const BootstrapTooltip = styled(({ className, ...props }) => (
@@ -72,6 +74,9 @@ export default function DividerText() {
       <BootstrapTooltip title="C" placement="top">
       <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
       </BootstrapTooltip>
+      <BootstrapTooltip title="C++" placement="top">
+      <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+      </BootstrapTooltip>
       <BootstrapTooltip title="HTML5" placement="top">
       <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
       </BootstrapTooltip>
@@ -102,19 +107,7 @@ export default function DividerText() {
 </BootstrapTooltip>
 <BootstrapTooltip title="GraphQL" placement="top">
 <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" />         
-</BootstrapTooltip>
-<BootstrapTooltip title= "tailwindcss" placement="top">
-<img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-</BootstrapTooltip>
-<BootstrapTooltip title="SwiftUI" placement="top">
-<img alt="img" src={swiftui} />
-</BootstrapTooltip>
-<BootstrapTooltip title="Numpy" placement="top">
-<img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />          
-</BootstrapTooltip>      
-<BootstrapTooltip title="Pandas" placement="top">
-<img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />
-</BootstrapTooltip>
+</BootstrapTooltip>   
 <BootstrapTooltip title="TensorFlow" placement="top">
 <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" />
 </BootstrapTooltip>
@@ -124,14 +117,29 @@ export default function DividerText() {
 <BootstrapTooltip title="Keras" placement="top">
 <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24"><path fill="#d00000" d="M24 0H0v24h24V0zM8.45 5.16l.2.17v6.24l6.46-6.45h1.96l.2.4l-5.14 5.1l5.47 7.94l-.2.3h-1.94l-4.65-6.88l-2.16 2.08v4.6l-.19.2H7l-.2-.2V5.33l.17-.17h1.48z"/></svg>
 </BootstrapTooltip>
-<BootstrapTooltip title="matplotlib" placement="top">
-<Icon height="50px" width="50px" icon="devicon:matplotlib" color="#d00000" />
+<BootstrapTooltip title="MongoDB" placement="top">          
+<img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
 </BootstrapTooltip>
-<BootstrapTooltip title="MaterialUI" placement="top">
-<img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
+<BootstrapTooltip title="ExpressJS" placement="top">
+<img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
 </BootstrapTooltip>
-<BootstrapTooltip title="DaisyUI" placement="top">
-<Icon height="50px" width="50px" icon="logos:daisyui" />
+<BootstrapTooltip title="NodeJS" placement="top">
+<img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+</BootstrapTooltip>
+<BootstrapTooltip title="Flask" placement="top">
+<img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
+</BootstrapTooltip>
+<BootstrapTooltip title="Spring Boot" placement="top">
+<img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+</BootstrapTooltip>
+<BootstrapTooltip title="RESTful APIs" placement="top">
+<img alt="" height="50px" width="50px" src={rest} />
+</BootstrapTooltip>
+<BootstrapTooltip title="Angular" placement="top">
+<img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+</BootstrapTooltip>
+<BootstrapTooltip title="MySQL" placement="top">
+<img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
 </BootstrapTooltip>
 </div>
 
@@ -152,6 +160,12 @@ export default function DividerText() {
         <BootstrapTooltip title="Vim" placement="top">
        <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" />
         </BootstrapTooltip>      
+        <BootstrapTooltip title="Linux" placement="top">
+       <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+        </BootstrapTooltip>  
+        <BootstrapTooltip title="Unix" placement="top">
+       <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unix/unix-original.svg" />
+        </BootstrapTooltip>  
         <BootstrapTooltip title="XCode" placement="top">
         <img alt="img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" />
         </BootstrapTooltip>      
