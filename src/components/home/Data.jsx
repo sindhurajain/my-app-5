@@ -40,7 +40,7 @@ const Data = () => {
                 part of NUS's honours college. <span id="sc">I am a recipient of the NUS Merit Scholarship.</span>
                 </p>
                 <br></br>
-                <p>I'm passionate about artificial intelligence & machine learning, algorithms & theory and software engineering. I love making ideas come to life. 
+                <p>I'm passionate about finance & technology, AI & ML, algorithms & theory and software engineering. I love making ideas come to life.</p>
                 </p>
                 <br></br>
                 <p>Feel free to reach out to me!</p>
