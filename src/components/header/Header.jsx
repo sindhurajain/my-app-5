@@ -14,7 +14,7 @@ const Header = () => {
                     <ul className = "nav__list grid"> 
 
 
-                        <li className = "nav__item">
+                        <li className = "nav__item" id="resumeval">
                             <a href ={cv} target="_blank" className = "nav__link">
                                 <i className="uil uil-user nav__icon"> </i> Resume
                             </a>
