@@ -8,6 +8,10 @@
 
 }
 
+#resumeval {
+    display: none;
+}
+
 .nav {
     height: 4.5rem;
     display: flex;
